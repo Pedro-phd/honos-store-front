@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@400;700&display=swap');
+
 @tailwind base;
 
 a {
@@ -18,4 +20,17 @@ a:hover {
 
 .content ul {
   @apply my-6;
+}
+
+#banner {
+  max-height: 500px !important;
+}
+.swiper-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+* {
+  font-family: 'Urbanist', sans-serif
 }
